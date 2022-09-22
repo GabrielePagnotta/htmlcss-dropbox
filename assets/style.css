@@ -26,6 +26,69 @@
     justify-content: center;
 }
 
+.trova-container{
+    justify-content: center;
+}
+
+.all-container{
+    width:100%;
+    height: 800px;
+    background-color: red;
+    justify-content: center;
+    
+}
+
+.tab-container{
+    width:60%;
+    height:auto;
+    background-color: chartreuse;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.all-enterprise-container{
+    width:100%;
+    background-color: chartreuse;
+    justify-content: center;
+    margin-bottom:150px;
+}
+
+.enterprise-container{
+    width:60%;
+    height:100px;
+    background-color: blue;
+}
+
+.entra-in-contatto{
+    width:100%;
+    height:100px;
+    background-color: red;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.operazioni{
+    width:100%;
+    height:800px;
+    background-color: red;
+    justify-content: center;
+}
+
+.entra-in-contatto-container{
+    width:60%;
+    background-color: chartreuse;
+    
+    
+}
+
+.operazioni-container{
+    width:60%;
+    background-color: chartreuse;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
+
 .nav{
     width:20%;
    
@@ -35,21 +98,64 @@
 
 .lightblue-box-1{
     width:80%;
-    
     background-color: blue;
 
 }
 
 .lightblue-box-2{
-    width:40%;
+    width:50%;
     background-color: blueviolet;
 }
 
 .lightblue-box-3{
-    width:40%;
+    width:50%;
     background-color: yellow;
 
 }
+
+
+.trova{
+    width:60%;
+    background-color: aqua;
+    margin:100px 0;
+}
+
+.tab-box{
+    width:calc(90% / 3);
+    height: auto;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.enterprise-box{
+    width:40%;
+    height:auto;
+    background-color: blue;
+}
+
+.enterprise-box-2{
+    width:60%;
+    height:auto;
+    background-color: blueviolet;
+}
+
+.entra-in-contatto-box-1{
+width: 60%;
+background-color: blue;
+}
+
+.entra-in-contatto-box-2{
+    width: 40%;
+    background-color: blueviolet;
+    }
+
+    .operazioni-box{
+        width:30%;
+    
+        background-color: blue;
+        border: 1px solid black;
+    }
+
 
 
 
