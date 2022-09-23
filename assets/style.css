@@ -758,6 +758,71 @@ background-repeat: no-repeat;
         font-size: 1rem;
         
     }
+    
+    .footer-main-container{
+        width: 100%;
+        background-color: black;
+    }
+
+    .footer-container{
+        width:70%;
+        margin:0px auto;
+        /* background-color: chocolate; */
+        margin-top:100px;
+        
+    }
+
+    .footer-box{
+        width:calc(100% / 5);
+        border: 1px solid black;
+        
+
+    }
+
+    .title-footer{
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 30px;
+    }
+    
+
+    .elenco{
+        font-size: 1.2rem;
+        line-height: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+    
+
+.mrg-footer{
+    margin-top: 100px;
+}
+
+.fa-earth-americas{
+    color: white;
+   
+}
+
+.language{
+display: inline-block;
+padding-left: 2px;
+color: white;
+cursor: pointer;
+
+}
+.fa-sharp{
+    margin-top:0;
+    margin-left: 0px;
+    font-size: 1rem;
+    color: white;
+}
+
+.footer-line{
+    width: 50%;
+
+    border-top:2px solid lightgray;
+}
 
 
 
