@@ -3,7 +3,7 @@
     padding:0;
     box-sizing: border-box;
     list-style: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .flex{
@@ -104,7 +104,6 @@
 
 .giant-title{
     font-size: 3rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     padding-left:300px;
     padding-top:50px;
@@ -113,7 +112,6 @@
 .lightblue-title{
     width:40%;
     font-size: 1.1rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left:490px;
     position:absolute;
     top:0;
@@ -206,7 +204,6 @@ background-repeat: no-repeat;
 
     .text-nav{
        padding:15px; 
-       font-family: 'Roboto', sans-serif;
        cursor: pointer; 
        margin-top:5px;
     }
@@ -215,7 +212,6 @@ background-repeat: no-repeat;
        height:10px;
        padding:15px;
        margin-top:5px;
-       font-family: 'Roboto', sans-serif;
        cursor: pointer; 
        
       
@@ -240,7 +236,6 @@ background-repeat: no-repeat;
         font-size: 1.1rem;
         text-align: center;
         margin-top:150px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     }
 
@@ -248,7 +243,6 @@ background-repeat: no-repeat;
         margin-top:30px;
         margin-left:490px;
         font-size: 1.1rem;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     .fa-sharp{
@@ -724,8 +718,48 @@ background-repeat: no-repeat;
         text-align: center;
         font-size: 1rem;
         padding:10px;
-        margin-top: 100px ;
+        margin: 100px;
+        
     }
+
+    .domande{
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 50px 330px ;
+        
+    }
+
+    .general-container-domande{
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .container-domande{
+        width:65%;
+        margin: 0px auto;
+        /* background-color: green; */
+    }
+
+    .domande-box{
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 40px 0px;
+        font-weight: bold;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+        /* background-color: olive; */
+    }
+
+    .fa-chevron-down{
+        
+        margin-right: 30px;
+        font-size: 1rem;
+        
+    }
+
+
 
     
 
